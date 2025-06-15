@@ -1,0 +1,9 @@
+### Register New User (POST Request)
+POST http://127.0.0.1:8000/register/
+Content-Type: application/json
+
+{
+  "username": "krishna",
+  "password": "pass1234",
+  "email": "arvindsinghbhati9660@gmail.com"
+}
